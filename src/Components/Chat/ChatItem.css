@@ -54,7 +54,7 @@
 }
 .msg{
     padding: 2px;
-    height: 20px;
+    height: 30px;
     width: 50%;
     padding-left: 2%;
     margin-right: 2%;
@@ -62,5 +62,5 @@
 }
 .send{
     background-color: aqua;
-    border-radius: 5px;
+    border-radius: 10px;
 }
