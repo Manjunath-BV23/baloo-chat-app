@@ -16,8 +16,15 @@ export const AddUser = () => {
         setFriend({...friend,[name]:value,})
     }
 
-    const handleSubmit = () => {
-        axios.post("https://baloo-json.herokuapp.com/users", friend)
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        if(friend.name != "" && friend.photo != ""){
+
+            axios.post("https://baloo-json.herokuapp.com/users", friend)
+        }
+        else{
+            alert("Please fill the both the inputs")
+        }
     }
     return(
         <div className="main">
