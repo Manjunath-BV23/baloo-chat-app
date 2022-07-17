@@ -1,0 +1,10 @@
+.addDiv{
+ width: 100%;
+}
+
+.addInput {
+    width: 65%;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 10px; 
+}

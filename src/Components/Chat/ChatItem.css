@@ -1,0 +1,66 @@
+.chatDiv {
+    background-color:#FFFFFF ;
+    margin-top: 90px;
+    margin-bottom:120px;
+    border-radius: 35px 35px 0px 0px;
+    display: grid;
+    /* grid-template-columns: repeat(1, 1fr); */
+    gap: 10px;
+    /* border: 1px solid green; */
+    padding-bottom: 100px;
+    border: 6px solid #FFFFFF;
+
+}
+.left {
+    width:fit-content;
+    border: 2px solid orange;
+    text-align: left;
+    /* margin-top: 30px; */
+    margin-left: 2%;
+    padding: 10px;
+    border-radius: 30px 10px 10px 0px;
+}
+.right {
+    margin-left: 37%;
+    width:fit-content;
+    float: right;
+    padding: 10px;
+    border: 2px solid green;
+    text-align: right;
+    border-radius: 10px 30px 0px 10px;
+    /* position: fixed; */
+    /* right:0; */
+    margin-right:10px
+}
+.form {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    margin-bottom:75px;
+    padding-left: 10%;
+    padding-bottom: 5px;
+    width: 100%;
+    align-items: left;
+    justify-content: left;
+    /* border: 1px solid red; */
+    background-color: #FFFFFF;
+    /* padding-right: 20%; */
+}
+.formDiv {
+    position: fixed;
+    bottom: 0;
+    margin-bottom:85px;
+    border: 1px solid rgb(247, 13, 71);
+}
+.msg{
+    padding: 2px;
+    height: 20px;
+    width: 50%;
+    padding-left: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+}
+.send{
+    background-color: aqua;
+    border-radius: 5px;
+}
