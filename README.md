@@ -2,9 +2,29 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Deployed link 
+ https://baloo-chat-app.vercel.app/
+
+# Git repository link
+https://github.com/Manjunath-BV23/baloo-chat-app.git
+
+# Josn-server code repository link
+https://github.com/Manjunath-BV23/baloo-json.git
+
 ## Available Scripts
 
+You can clone this code:
+
+### `git init`
+### `git clone https://github.com/Manjunath-BV23/baloo-chat-app.git`
+
+Go your command line and run above commands
+
 In the project directory, you can run:
+
+### `npm install`
+
+Run above command to install all dependencies in our project.
 
 ### `npm start`
 
